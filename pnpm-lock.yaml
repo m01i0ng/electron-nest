@@ -85,7 +85,7 @@ importers:
         version: 2.34.0
       plotly.js-locales:
         specifier: ^2.30.1
-        version: 2.33.0
+        version: 2.34.0
       radash:
         specifier: ^12.1.0
         version: 12.1.0
@@ -3961,8 +3961,8 @@ packages:
   plotly.js-dist-min@2.34.0:
     resolution: {integrity: sha512-HKAXTm+cFLNPxNllGIZGgVwX4OCd2SCnLLveUUOk4P27EKz/aPKeGLAcnGXegH3IKZKhvcbmreiwC+vK5vPlXw==}
 
-  plotly.js-locales@2.33.0:
-    resolution: {integrity: sha512-tDQZsorNSXj7YBiCbY4GH9MnutKSg3+p/hnMXFVm1q51eUG6oLZraeppkEt4JB5+mwRRpJs422Y8VkN2XAoLMg==}
+  plotly.js-locales@2.34.0:
+    resolution: {integrity: sha512-nSUGu4WlOibSI93BpYVg2GfpXlYBUcRQ2u7SkB4BFlt2xskjJeIvOkuU06Fyf5hsL4ODARfRSCgw57geiP762w==}
 
   pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
@@ -9598,7 +9598,7 @@ snapshots:
 
   plotly.js-dist-min@2.34.0: {}
 
-  plotly.js-locales@2.33.0: {}
+  plotly.js-locales@2.34.0: {}
 
   pluralize@8.0.0: {}
 
