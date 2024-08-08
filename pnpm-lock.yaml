@@ -76,7 +76,7 @@ importers:
         version: 11.3.24(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       nest-winston:
         specifier: ^1.9.4
-        version: 1.10.0(@nestjs/common@10.3.10(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(winston@3.14.0)
+        version: 1.10.0(@nestjs/common@10.3.10(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(winston@3.14.1)
       nestjs-typeorm-paginate:
         specifier: ^4.0.4
         version: 4.0.4(@nestjs/common@10.3.10(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(typeorm@0.3.20(sql.js@1.11.0))
@@ -121,7 +121,7 @@ importers:
         version: 0.3.20(sql.js@1.11.0)
       winston:
         specifier: ^3.12.0
-        version: 3.14.0
+        version: 3.14.1
       xlsx:
         specifier: https://cdn.sheetjs.com/xlsx-0.20.1/xlsx-0.20.1.tgz
         version: https://cdn.sheetjs.com/xlsx-0.20.1/xlsx-0.20.1.tgz
@@ -5316,8 +5316,8 @@ packages:
     resolution: {integrity: sha512-wQCXXVgfv/wUPOfb2x0ruxzwkcZfxcktz6JIMUaPLmcNhO4bZTwA/WtDWK74xV3F2dKu8YadrFv0qhwYjVEwhA==}
     engines: {node: '>= 12.0.0'}
 
-  winston@3.14.0:
-    resolution: {integrity: sha512-XEJvmKJglhTW2TgfpKdkpj0119Yn5AClR7LJ0rBNUQFx20mNQj3s1ukTA1i77q+YBaHYbcKtXpxgPqfdUPCIYA==}
+  winston@3.14.1:
+    resolution: {integrity: sha512-CJi4Il/msz8HkdDfXOMu+r5Au/oyEjFiOZzbX2d23hRLY0narGjqfE5lFlrT5hfYJhPtM8b85/GNFsxIML/RVA==}
     engines: {node: '>= 12.0.0'}
 
   wordwrap@1.0.0:
@@ -9338,11 +9338,11 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  nest-winston@1.10.0(@nestjs/common@10.3.10(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(winston@3.14.0):
+  nest-winston@1.10.0(@nestjs/common@10.3.10(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(winston@3.14.1):
     dependencies:
       '@nestjs/common': 10.3.10(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       fast-safe-stringify: 2.1.1
-      winston: 3.14.0
+      winston: 3.14.1
 
   nestjs-typeorm-paginate@4.0.4(@nestjs/common@10.3.10(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(typeorm@0.3.20(sql.js@1.11.0)):
     dependencies:
@@ -11108,7 +11108,7 @@ snapshots:
       readable-stream: 3.6.2
       triple-beam: 1.4.1
 
-  winston@3.14.0:
+  winston@3.14.1:
     dependencies:
       '@colors/colors': 1.6.0
       '@dabh/diagnostics': 2.0.3
